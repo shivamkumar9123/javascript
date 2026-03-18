@@ -1,0 +1,10 @@
+const score=400;
+const balance =new Number(100.233456789);
+console.log(balance);
+console.log(balance.toString().length);
+console.log(balance.toFixed(1));
+console.log(balance.toExponential());
+console.log(balance.toLocaleString());
+console.log(Math.floor(balance));
+console.log(balance.toPrecision(4));
+console.log(Math.ceil(balance));
