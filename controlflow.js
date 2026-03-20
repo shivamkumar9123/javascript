@@ -41,10 +41,61 @@
 //     console.log("equal to 1000");
     
 // }
-const isUserloggedIn=true
-const isUseremail=true
-const debitCard=true 
-if(isUseremail && isUserloggedIn&&debitCard){
-    console.log("allow to buy product");
+// const isUserloggedIn=true
+// const UserloggedInemail=true
+// const debitCard=true 
+// const userloggedfromGoogle=false
+// if(UserloggedInemail && isUserloggedIn&&debitCard ||userloggedfromGoogle){
+//     console.log("allow to buy product");
+
+// }
+// const month=13
+// switch (month) {
+//     case 1:
+//         console.log("january")
+//         break;
+//     case 2:
+//         console.log("february")
+//         break;
+//     case 3:
+//         console.log("march")
+//         break;
+//     case 4:
+//         console.log("april")
+//         break;
+
+//     default:
+//         console.log("default case match");
+        
+//         break;
+// }
+// // truthy
+// const useremail="shivamkumarmehta@gamil.com"
+// if(useremail){
+//     console.log("got email user");
     
+// }
+// else{
+//     console.log("don't email user");
+    
+// }
+// falsy value
+//false ,0,-0, BigInt0n, "",null,undefined,NaN
+// truthy values
+// "false","0"," ", function(){},[],{}
+// const arr=[]
+// if(arr.length===0){
+//     console.log("is it a array");
+    
+// }
+const emptyobj={}
+if(Object.keys(emptyobj).length===0){
+    console.log("emptyobj")
 }
+// nullish coalescing operator(??) : null, undefined
+let val1=5??10
+
+
+
+
+console.log(val1)
