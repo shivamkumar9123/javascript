@@ -113,16 +113,20 @@ let a1=[1,2,3]
 let a2=a1;
 a2.push(4);
 console.log(a1);
-// copy methods
+// by reference methods 
 let b=a1;
 b.push(55);
 console.log(a1);
+// spread operator /shallow copy
 let c=[...a1];
 // let c=a1
 c.push(90);
 console.log(a1);
-// deep copy vs shallow copy 
-// spread operator
+// clone method /deep copy method
+let d= structuredClone(a1);
+d.push(99);
+console.log(a1);
+
 
 
 

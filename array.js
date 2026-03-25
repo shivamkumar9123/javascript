@@ -10,5 +10,14 @@ const newArr=myArr.join();//join add all element of array into string separated 
 console.log(myArr);
 console.log(newArr);
 console.log(typeof newArr);
+let prices=[100,200,300];
+let gstPrices = prices.map(p=>p+p*0.18); //// map means return new array
+console.log(gstPrices,prices);
+let r1= prices.map(
+    (x)=>{
+        return x*x;
+    }
+)
+
 
 
