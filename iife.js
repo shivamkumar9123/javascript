@@ -24,3 +24,11 @@ function three(){
 one()
 two()
 three()
+
+// (function(printName){
+//     console.log("hello"+printName);
+// }("Shivam")
+
+(function (printName){
+   console.log("Hello"+printName)
+})("shivam")
